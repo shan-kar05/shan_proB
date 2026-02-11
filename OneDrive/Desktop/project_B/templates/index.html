@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Career Path Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="gradient-bg"></div>
+    
+    <main class="container">
+      <header class="header">
+        <h1 class="title">🎯 Career Path Finder</h1>
+        <p class="subtitle">Discover your ideal tech career based on your skills</p>
+      </header>
+
+      <form id="skills-form" class="form-card">
+        <fieldset class="skill-section">
+          <legend class="section-header">📚 Select Your Skills</legend>
+          
+          <div class="skill-category">
+            <h3 class="cat-title">📝 Programming Languages</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Python"> <span>Python</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="JavaScript"> <span>JavaScript</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="TypeScript"> <span>TypeScript</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Java"> <span>Java</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="C++"> <span>C++</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="C#"> <span>C#</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Go"> <span>Go</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Rust"> <span>Rust</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="PHP"> <span>PHP</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Swift"> <span>Swift</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Kotlin"> <span>Kotlin</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Solidity"> <span>Solidity</span></label>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="cat-title">🎨 Frontend</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="HTML"> <span>HTML</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="CSS"> <span>CSS</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="React"> <span>React</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Angular"> <span>Angular</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Vue"> <span>Vue</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Bootstrap"> <span>Bootstrap</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Webpack"> <span>Webpack</span></label>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="cat-title">⚙️ Backend & Frameworks</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Node.js"> <span>Node.js</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Express.js"> <span>Express.js</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Django"> <span>Django</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Flask"> <span>Flask</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Spring Boot"> <span>Spring Boot</span></label>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="cat-title">🗄️ Databases & Data</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="SQL"> <span>SQL</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="NoSQL"> <span>NoSQL</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="MongoDB"> <span>MongoDB</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Tableau"> <span>Tableau</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Power BI"> <span>Power BI</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Pandas"> <span>Pandas</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="NumPy"> <span>NumPy</span></label>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="cat-title">🤖 AI/ML & Data Science</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Machine Learning"> <span>Machine Learning</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="TensorFlow"> <span>TensorFlow</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="PyTorch"> <span>PyTorch</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="scikit-learn"> <span>scikit-learn</span></label>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="cat-title">☁️ DevOps & Cloud</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Docker"> <span>Docker</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Kubernetes"> <span>Kubernetes</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="AWS"> <span>AWS</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Azure"> <span>Azure</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="GCP"> <span>GCP</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Terraform"> <span>Terraform</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Ansible"> <span>Ansible</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="CI/CD"> <span>CI/CD</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Jenkins"> <span>Jenkins</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="GitHub Actions"> <span>GitHub Actions</span></label>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="cat-title">🐧 Linux & System Admin</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Linux"> <span>Linux</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="bash"> <span>bash</span></label>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="cat-title">🔒 Security</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Cybersecurity"> <span>Cybersecurity</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Networking"> <span>Networking</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Ethical Hacking"> <span>Ethical Hacking</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Penetration Testing"> <span>Penetration Testing</span></label>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="cat-title">🎮 Game Development</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Unity"> <span>Unity</span></label>
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Unreal"> <span>Unreal</span></label>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="cat-title">🔗 Blockchain</h3>
+            <div class="skill-grid">
+              <label class="skill-chip"><input type="checkbox" name="skills" value="Blockchain"> <span>Blockchain</span></label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="level-section">
+          <legend class="section-header">🎓 Experience Level</legend>
+          <div class="level-options">
+            <label class="level-card">
+              <input type="radio" name="skillLevel" value="Beginner" checked>
+              <div class="level-badge">
+                <span class="level-emoji">🌱</span>
+                <span class="level-name">Beginner</span>
+                <span class="level-desc">Still learning</span>
+              </div>
+            </label>
+            <label class="level-card">
+              <input type="radio" name="skillLevel" value="Intermediate">
+              <div class="level-badge">
+                <span class="level-emoji">📈</span>
+                <span class="level-name">Intermediate</span>
+                <span class="level-desc">Built projects</span>
+              </div>
+            </label>
+            <label class="level-card">
+              <input type="radio" name="skillLevel" value="Advanced">
+              <div class="level-badge">
+                <span class="level-emoji">🚀</span>
+                <span class="level-name">Advanced</span>
+                <span class="level-desc">Professional</span>
+              </div>
+            </label>
+          </div>
+        </fieldset>
+
+        <button class="cta-button" type="submit">
+          <span>Discover My Career Path</span>
+          <span class="arrow">→</span>
+        </button>
+      </form>
+
+      <section id="output" class="results-section hidden">
+        <div class="results-header">
+          <h2>🎊 Your Career Recommendations</h2>
+          <p id="summary" class="summary-text"></p>
+        </div>
+        <div id="careers-container" class="careers-grid"></div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- About Section -->
+        <div class="footer-section about-section">
+          <h4 class="footer-title">
+            <i class="fas fa-graduation-cap"></i> About Us
+          </h4>
+          <p class="footer-text">
+            Career Path Finder helps students and professionals discover the perfect tech career based on their skills and interests. We believe everyone deserves guidance on their ideal career journey.
+          </p>
+          <p class="mission-statement">
+            <em>🎯 Our Mission:</em> Empower learners with data-driven career recommendations.
+          </p>
+        </div>
+
+        <!-- Services Section -->
+        <div class="footer-section services-section">
+          <h4 class="footer-title">
+            <i class="fas fa-briefcase"></i> Our Services
+          </h4>
+          <ul class="services-list">
+            <li><i class="fas fa-check-circle"></i> Career Recommendations</li>
+            <li><i class="fas fa-check-circle"></i> Skill Assessment</li>
+            <li><i class="fas fa-check-circle"></i> Learning Roadmaps</li>
+            <li><i class="fas fa-check-circle"></i> Course Suggestions</li>
+            <li><i class="fas fa-check-circle"></i> Salary Insights</li>
+            <li><i class="fas fa-check-circle"></i> Career Mentorship</li>
+          </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="footer-section contact-section">
+          <h4 class="footer-title">
+            <i class="fas fa-envelope"></i> Get in Touch
+          </h4>
+          <div class="contact-item">
+            <i class="fas fa-envelope-open"></i>
+            <a href="mailto:arsp2005cse@gmail.com" class="contact-link">
+              arsp2005cse@gmail.com
+            </a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span class="contact-text">+91 9087356377</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="contact-text">cuddalore,TN</span>
+          </div>
+        </div>
+
+        <!-- Legal Section -->
+        <div class="footer-section legal-section">
+          <h4 class="footer-title">
+            <i class="fas fa-gavel"></i> Legal & Policies
+          </h4>
+          <ul class="legal-links">
+            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+            <li><a href="#" class="footer-link">Terms of Service</a></li>
+            <li><a href="#" class="footer-link">Cookie Policy</a></li>
+            <li><a href="#" class="footer-link">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2026 Career Path Finder. All rights reserved.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-link" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="social-link" title="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-link" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" class="social-link" title="Email">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

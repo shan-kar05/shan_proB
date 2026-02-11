@@ -1,0 +1,36 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Flask
+instance/
+.webassets-cache
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Cache
+__pycache__/
+.pytest_cache/
